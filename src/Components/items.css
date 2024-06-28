@@ -11,8 +11,8 @@ h1{
 .free{
   background: #D77575;
   padding-top: 25px;
-  width: 128%;
-  margin-left: -15%;
+  width: 124%;
+  margin-left: -12%;
   margin-top: -3%;
 }
 
@@ -20,11 +20,12 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: -15%;
+  width: 124%;
+  margin-left: -12%;
   top: 0;
   padding: 1px;
   cursor: pointer;
-  margin-right: -13%;
+
   height: 90px;
 }
 
@@ -73,24 +74,20 @@ h1{
   border-radius: 9px;
   color: #121010;
 }
-/* .imgage{
-  display: flex;
-  height: 50px;
- color: #FFFFFF;
- gap: 15px;
-} */
+
 
 .shop {
   background: #BA0018;
   align-items: center;
   justify-content: center;
-  margin-left: -15%;
+  width: 124%;
+  margin-left: -12%;
   top: 0;
   padding: 10px;
   color: #FFFFFF;
   background-blend-mode: darken;
   background-size: cover;
-  margin-right: -13%;
+ 
 }
 
 .flat{
@@ -99,6 +96,7 @@ h1{
   font-weight: 700;
   line-height: 28px;
   text-align: center;
+
 }
 
 .end{
@@ -246,8 +244,8 @@ hr{
   padding: 10%;
   background-blend-mode: darken;
   background-size: cover;
-  margin-left: -13%;
-  margin-right: -13%;
+  width: 124%;
+  margin-left: -12%;
   overflow: hidden;
 }
 
@@ -305,9 +303,122 @@ hr{
   margin-left: 42%;
   margin-top: -6%;
 }
-
 .h1{
   margin-top: -5%;
   width: 80%;
   margin-left:10% ;
+}
+
+.icon{
+  display: flex;
+  gap: 40%;
+ padding-left: 5%;
+}
+/* @media only screen and (max-width:767px) {
+  .free{
+    background: #D77575;
+margin-top: -5%;
+align-items: center;
+overflow: hidden;
+width: 130%;
+
+    }
+} */
+.logout
+{
+ 
+margin-right: -80px;
+border: 1px solid white;
+color: #DFE0E1;
+padding: 3px;
+font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 767px) {
+  .free {
+    background: #D77575;
+    margin-top: -5%;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .navbar {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .rightnav {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .shop {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px 10px;
+  }
+
+  .arrivals {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  .cardcontainer {
+    grid-template-columns: 1fr;
+  }
+
+  .support {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .li1, .li2, .li3 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .stay {
+    margin-right: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .india {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 10px;
+  }
+
+  .h1 {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .icon {
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .logout {
+    margin-right: 0;
+    margin-top: 10px;
+  }
 }

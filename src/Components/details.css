@@ -1,0 +1,198 @@
+.img1{
+   height: 40%;
+   width: 40%;
+  background-color: #dedddd;
+   border: 1px solid  #dedddd ;
+   border-radius: 5%;
+   box-shadow: -7px 10px 23px -1px rgba(92,92,92,0.85);
+}
+.image{
+  margin-left: 25px;
+  margin-top: 3%;
+}
+.des{
+    width: 60%;
+    margin-left: 45%;
+   justify-content: center;
+   margin-top: -35%;
+   font-size: 1.25rem;
+   text-align: left;
+   font-weight: 500;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ti{
+    /* text-align: left; */
+  margin-top: 5%;
+  margin-left: -60%;
+  font-size: 1.70rem;
+  color:#D77575 ;
+}
+.brand{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:500;
+    color: rgb(18, 112, 147);
+}
+.rate{
+    text-align: left;
+    padding: 1%;
+}
+.two{
+    
+    margin-left: 46%;
+    display: flex;
+   
+}
+hr{
+border: 1px solid rgb(187, 184, 184);
+width: 110%;
+}
+.hrz{
+    margin-left: 45%;
+}
+.deal{
+ 
+    width: 11%;
+    margin-left: 45%;
+    margin-top: 1%;
+    border-radius: 5px;
+    border:1px solid rgb(200, 44, 44) ;
+    padding: 2px;
+    color: white;
+    background-color: rgb(200, 44, 44);
+    font-weight: 600;
+    font-size:15px;
+}
+.price{
+    font-size: 1.50rem;
+    padding-top: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.policy{
+    font-size: 1.30rem;
+    font-weight: 400;
+    padding-top: 1%;
+    padding-left: 4%;
+    color: rgb(18, 112, 147);
+}
+.hrz2{
+    margin-left: 45%;
+    padding-top: 1%;
+}
+.add{
+    font-size: 1.20rem;
+    font-weight: 600;
+    margin-left: 12%;
+    padding-top: 2%;
+}
+.hrz3{
+    margin-left: 45%;
+    padding-top: 2%;
+}
+.tag{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 1%;
+    margin-left: 7%;
+}
+.category{
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.information{
+    text-align: left;
+    margin-left: 45%;
+    padding-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.info{
+    padding-right: 7%;
+    
+}
+.buttons{
+   
+   padding-right: 10%;
+  display: flex;
+gap: 30px;
+margin-left: 6%;
+margin-top: -14%;
+}
+.bt1{
+    border: 1px solid #D77575;
+   width: 17%;
+padding: 1%;
+background-color: #D77575;
+border-radius: 3%;
+font-size: large;
+color: white;
+font-weight: 500;
+
+}
+.bt2{
+    border: 1px solid #D77575;
+    width: 17%;
+ padding: 1%;
+ background-color: #D77575;
+ border-radius: 3%;
+ font-size: large;
+ color: white;
+ font-weight: 500;
+   
+}
+.hrz4{
+   margin-left:-10% ;
+    padding-top: 12%;  
+    width: 110%; 
+}
+.heading{
+    font-size: 1.40rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+b{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.name{
+    display: flex;
+    gap: 1%;
+    font-size: large;
+    
+}
+.rating{
+    display: flex;
+    gap: 1%;
+    font-size: large;
+}
+.comment{
+    display: flex;
+    gap: 1%;
+    font-size: large;
+}
+.date{
+    display: flex;
+    gap: 1%;
+    font-size: large;
+}
+.email{
+    display: flex;
+    gap: 1%;
+    font-size: large;
+}
+.hrz5{
+    margin-left: -10%;
+    width: 100%;
+  
+}
+.products{
+    font-size: 1.40rem;
+    padding-bottom: 2%;
+    margin-left: 2%;
+   
+    
+        font-weight: 700;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+      }
+    

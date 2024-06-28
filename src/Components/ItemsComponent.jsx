@@ -1,15 +1,29 @@
 import React from "react";
 import './items.css'
 import { useState,useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import Heart from '../assets/Heart.svg'
+import cart from '../assets/cart.svg'
+import admin from '../assets/admin.svg'
 
 export default function ItemsComponent() {
+    const navi = useNavigate()
     const [items,setItems] = useState([])
     const [searchQuery, setSearchQuery] = useState('');
 
+    useEffect(()=>{
+if (localStorage.getItem('cookies')!='secret'){
+    // window.location.href='/#/login';
+    navi('/')
+}},[])
 useEffect(()=>{
     getData()
 },[])
-
+function logout(){
+    localStorage.setItem('cookies','')
+    navi('/')
+    
+}
 async function getData(){
     var res=await fetch('https://dummyjson.com/products')
     var data=await res.json()
@@ -53,14 +67,18 @@ return(
                    id="search"
                    value={searchQuery}
                    onChange={handleSearchChange}/>
-
-            <button class="btn btn-sm">Search</button>
+                   
+            {/* <button class="btn btn-sm">Search</button> */}
         </div>
+        <div className="icon">
 
-        {/* <div className="imgage">
-        <img src= alt="heart" />
-        <img src= alt="" />
-        </div> */}
+        <img src={Heart} alt="" />
+        <img src={cart} alt="" />
+        <img src={admin} alt="" />
+        <button className="logout" onClick={logout}>LOGOUT</button>
+        
+        </div>
+       
     </nav>
 
     <div className="shop">
@@ -82,22 +100,22 @@ return(
 
 </div>
 <hr />
-<p className="product">412 PRODUCTS</p>
+<p className="product">{items.length} PRODUCTS</p>
 <div className="cardcontainer" >
 
    {filteredItems.map((x)=>(
-   <>
+   <Link to='/details' state={x}>
     <div className="images">
-
+    
     <div className="imgcont">
-    <img src={x.images[0]} alt="images" className="img" />
+    <img src={x.thumbnail} alt="images" className="img" />
     </div>
 
     <p className="title">{x.title}</p>
     <p className="price">{x.price}</p>
 
     </div>
-    </>
+    </Link>
     ))}
 </div>
 
